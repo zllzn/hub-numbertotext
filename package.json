@@ -1,0 +1,27 @@
+{
+  "name": "hub-numbertotext",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm install && rollup -c",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@material/mwc-textfield": "^0.27.0",
+    "@nintex/form-plugin-contract": "^1.0.0-beta.3",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@web/rollup-plugin-copy": "^0.4.0",
+    "@web/rollup-plugin-html": "^2.0.0",
+    "lit": "^2.6.1",
+    "rollup": "^3.23.0",
+    "rollup-plugin-summary": "^2.0.0",
+    "to-words": "^3.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  }
+}
